@@ -18,12 +18,12 @@
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
+    "erasableSyntaxOnly": false, // 👈 CHANGE THIS FROM TRUE TO FALSE
     "noFallthroughCasesInSwitch": true,
 
     /* Path Aliasing */
     "paths": {
-      "@/*": ["./src/*"] // Notice we removed baseUrl and leave this as-is
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"]
