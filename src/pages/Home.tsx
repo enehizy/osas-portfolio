@@ -108,6 +108,15 @@ const mobileProjects: Project[] = [
     image: "/job-hunting.png",
     video: "/job-hunting-app.mp4", // Replace with actual video URL
   },
+  {
+    id: "Alert-Bible",
+    name: "Alert Bible",
+    description:
+      "Bible App that Give Schedulled notifications of bible playlist.",
+    technologies: ["React Native", "Expo", "TypeScript"],
+    image: "/bible.jpg",
+    video: "/bible.mp4", // Replace with actual video URL
+  },
 ];
 
 const services: Service[] = [
